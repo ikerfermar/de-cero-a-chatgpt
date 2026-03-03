@@ -1,0 +1,6 @@
+Me gusta aprender NLP con PyTorch.
+Los tokenizadores BPE y WordPiece segmentan palabras.
+Unigram LM aprende probabilidades de subpalabras.
+Byte-level BPE trabaja a nivel de bytes (útil para cualquier texto).
+Transformers usan subword tokenization para manejar OOV.
+Hoy entrenamos BPE, WordPiece, Unigram y Byte-level BPE.

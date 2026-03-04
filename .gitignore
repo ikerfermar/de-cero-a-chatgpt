@@ -209,3 +209,5 @@ __marimo__/
 # Models
 codegen-sft
 qwen-sft-lora
+
+.gradio

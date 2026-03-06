@@ -1,0 +1,6 @@
+# Better Git diffs/merges for Jupyter notebooks
+*.ipynb diff=jupyternotebook
+*.ipynb merge=jupyternotebook
+
+# Keep line endings consistent
+* text=auto

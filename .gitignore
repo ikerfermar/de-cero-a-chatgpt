@@ -138,6 +138,7 @@ celerybeat.pid
 .env
 .envrc
 .venv
+.conda/
 env/
 venv/
 ENV/
@@ -187,6 +188,9 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file. However, if you prefer, 
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 
 # Ruff stuff:
 .ruff_cache/
@@ -210,5 +214,46 @@ __marimo__/
 codegen-sft
 qwen-sft-lora
 dia3/mroberta-spanish-sentiment/
+dia3/mroberta-spanish-sentiment-random/
+bert-ag-news-exercise/
+dia3/bert-ag-news-exercise/
+
+# Training artifacts and checkpoints
+**/checkpoint-*/
+**/checkpoints/
+**/runs/
+**/wandb/
+**/mlruns/
+**/lightning_logs/
+**/ray_results/
+**/events.out.tfevents.*
+
+# Model weights / binary artifacts
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.bin
+**/*.safetensors
+
+# Hugging Face Trainer state
+**/trainer_state.json
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state.pth
+
+# Notebook execution/cache artifacts
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# General temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
 
 .gradio

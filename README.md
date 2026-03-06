@@ -1,5 +1,11 @@
 # De cero a ChatGPT
 
+> ⚠️ **Aviso importante sobre este repositorio**
+>
+> Este repositorio **no es el repositorio original oficial** del curso, sino una versión derivada y trabajada por **Iker Fernández Martínez**.
+>
+> Incluye materiales **completados, comentados y ampliados** con fines formativos. El contenido base original se mantiene a continuación.
+
 Este repositorio contiene los materiales del curso "De cero a ChatGPT" impartido en el CIFP Carlos III.
 
 Organización del README:
